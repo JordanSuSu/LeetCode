@@ -28,6 +28,7 @@
 
 
 // Hint: use the concept of Hash map
+// Runtime: 62ms, Memory: 51.72MB
 
 var twoSum = function(nums, target) {
     let map_pair = new Map();
