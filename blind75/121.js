@@ -24,13 +24,13 @@
 // 1 <= prices.length <= 105
 // 0 <= prices[i] <= 104
 
-/**
- * @param {number[]} prices
- * @return {number}
- */
+// @param {number[]} prices
+// @return {number}
 
 
 // Hint: Traverse the entire array and utilize two variables to keep track of the current maximum and minimum numbers, updating the difference between the maximum and minimum values as needed.
+
+// Runtime: 66ms, Memory: 58.77MB
 
 var maxProfit = function(prices) {
     let num_minimum = prices[0];
